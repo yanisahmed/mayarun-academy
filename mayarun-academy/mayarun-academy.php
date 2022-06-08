@@ -77,7 +77,12 @@ final class Mayarun_Academy
      * @return void
      */
     public function init_plugin() {
-         new Mayarun\Academy\Admin\Menu();
+        if ( is_admin() ) {
+            new Mayarun\Academy\Admin();
+        }else{
+            new \Mayarun\Academy\Frontend();
+        }
+         
     }
 
     /**
