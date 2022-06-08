@@ -1,0 +1,14 @@
+{
+    "name": "root/mayarun-academy",
+    "description": "A tutorial for Mayarun",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Mayarun\\Academy\\": "includes/"
+        },
+        "files": []
+    }
+}

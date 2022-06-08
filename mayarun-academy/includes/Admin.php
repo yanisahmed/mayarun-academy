@@ -1,0 +1,3 @@
+<?php
+
+namespace Mayarun\Academy;
